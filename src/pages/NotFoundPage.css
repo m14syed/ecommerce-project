@@ -1,0 +1,15 @@
+.notfound-message {
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  
+  /* This is the most important part */
+  height: calc(100vh - 60px); 
+  width: 100%;
+}
+
+.notfound-message p {
+  margin: 0; 
+  font-size: 24px;
+  font-weight: bold;
+}
